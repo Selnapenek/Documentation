@@ -1,6 +1,6 @@
 # Javascript SDK
 
-The 8base JavaScript SDK implements the client-side libraries used by applications using 8base services.
+The 8base JavaScript SDK implements aedqwe the client-side libraries used by applications using 8base services.
 
 ## Usage
 
