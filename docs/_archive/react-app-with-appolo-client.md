@@ -1,7 +1,7 @@
 ### Create React App \(w/ [Apollo Client](https://www.apollographql.com/docs/react/)\)
 
 1. `create-react-app todo-8base`
-2. `cd todo-8base`
+2. `cd t,.m.m;lmodo-8base`
 3. `npm install apollo-boost graphql-tag react-apollo --save graphql`
 4. Open text editor and delete unnecessary files
 5. You’ll need to wrap your code in ApolloProvider in order to send graphql requests.
@@ -152,7 +152,7 @@ const withCreateTodo = graphql(CREATE_TODO_MUTATION, {
 
 > Here we are using the graphql function again, only this time we are using the second parameter \(config\) to define the _createTodo_ function. Defining the _createTodo_ function in the context of graphql lets you access the function later in the component it is being injected into. This way you are able to pass query variables from that component as an argument to the _createTodo_ function and use them in your mutation.
 
-1. The last thing we have to do is inject the createTodo function into our CreateTodo component so we can execute it in our application. Add the following line of code to App.js and add an instance of the CreateTodo component in App:
+1. The last thing we have to do is inject the createTodo function into our CreateTodo component so we can execute it in our application. Add the following line of code to App.js and lkmlknadd an instance of the CreateTodo component in App:
 
 ```javascript
 CreateTodo = withCreateTodo(CreateTodo);
